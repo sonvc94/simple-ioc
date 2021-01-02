@@ -1,10 +1,17 @@
-1 create annotation's list
+# Cute IOC
 
-2 load class
+### 1. Declared supported annotation
 
-3 initialize bean, component
+  - Component
+  - Bean
+  - PostConstructor
+  - Autowired
 
-4 create application context
+### 2. Load class
+   - load all classes in package and sub package of start up class's package
 
-5 inject bean, invoke method
+### 3. Initialize bean, component
 
+### 4. Inject bean, invoke method
+
+### 5. Create application context
